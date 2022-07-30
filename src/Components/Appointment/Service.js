@@ -5,7 +5,9 @@ const Service = ({ service, setTreatment }) => {
   return (
     <div className="card lg:max-w-lg bg-base-100 shadow-xl">
       <div className="card-body">
-        <h2 className="card-title text-secondary">{name}</h2>
+        <h2 className="font-bold text-3xl text-secondary text-center">
+          {name}
+        </h2>
         <p>
           {slots.length ? (
             <span>{slots[0]}</span>
@@ -13,7 +15,7 @@ const Service = ({ service, setTreatment }) => {
             <span className="text-red-500">No Appointments Available</span>
           )}
         </p>
-        <p>
+        <p className="text-dark font-bold">
           {slots.length}
           {slots.length > 1 ? " spaces" : " space"} available
         </p>
@@ -22,7 +24,7 @@ const Service = ({ service, setTreatment }) => {
             for="booking-modal"
             onClick={() => setTreatment(service)}
             disabled={slots.length === 0}
-            className="btn btn-secondary text-white btn modal-button"
+            className="btn btn-secondary uppercase text-white font-bold bg-gradient-to-r from-secondary to-primary text-white btn modal-button"
           >
             Book Appointment
           </label>
