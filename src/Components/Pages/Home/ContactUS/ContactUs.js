@@ -20,19 +20,19 @@ const ContactUs = () => {
           <input
             type="text"
             placeholder="Type here"
-            class="input input-bordered w-full max-w-md"
+            className="input input-bordered w-full max-w-md"
           />
         </div>
         <div>
           <input
             type="text"
             placeholder="Type here"
-            class="input input-bordered w-full max-w-md"
+            className="input input-bordered w-full max-w-md"
           />
         </div>
         <div>
           <textarea
-            class="textarea textarea-bordered w-full max-w-md mb-5"
+            className="textarea textarea-bordered w-full max-w-md mb-5"
             placeholder="Bio"
           ></textarea>
         </div>

@@ -1,6 +1,6 @@
 [
     {
-        "_id":1,
+        
         "name":"Teeth Orthodontics",
         "slots":[
            
@@ -11,7 +11,7 @@
         ]
     },
     {
-        "_id":2,
+        
         "name":"Cavity Protection",
         "slots":[
             
@@ -25,14 +25,14 @@
         ]
     },
     {
-        "_id":3,
+        
         "name":"Cosmetic Dentistry",
         "slots":[
           
         ]
     },
     {
-        "_id":4,
+        
         "name":"Oral Surgery",
         "slots":[
           
@@ -45,7 +45,7 @@
         ]
     },
     {
-        "_id":5,
+       
         "name":"Teeth Cleaning",
         "slots":[
             "08:00AM - 08:30AM",
@@ -59,7 +59,7 @@
         ]
     },
     {
-        "_id":6,
+        
         "name":"Scaling",
         "slots":[
             "08:00AM - 08:30AM",
